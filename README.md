@@ -10,6 +10,7 @@ Solution existes for the following categories under [hackerrank](https://www.hac
   This section further contaions the following domains:
     * [Implemenattion](https://www.hackerrank.com/domains/algorithms/implementation)
     * [Warmup](https://www.hackerrank.com/domains/algorithms/warmup/difficulty/all/page/1)  
+    * [Strings](https://www.hackerrank.com/domains/algorithms/strings)
     
 2. [Bash](https://www.hackerrank.com/domains/shell/bash)
 
