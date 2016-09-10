@@ -25,19 +25,16 @@ using namespace std;
 
 
 int main(){
-    int n;
-    cin >> n;
-    string B;
-    cin >> B;
-    
-    int count = 0;
-    for (int i = 0; i < B.size(); ++i) {
-        if (B.substr(i, 3) == "010") {
+    int N, input, oddity = 0, count = 0;
+    cin >> N;
+    for(int j = 0; j < N; j++){
+        cin >> input;
+        if(input % 2) {
             count++;
-            i+=2;
+            oddity = count % 2 ? oddity - j : oddity + j;
         }
     }
-    cout << count << endl;
+    cout << (count % 2 ? "NO" : to_string(oddity * 2));
     return 0;
 }
 
