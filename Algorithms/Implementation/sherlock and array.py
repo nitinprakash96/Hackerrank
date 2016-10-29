@@ -2,7 +2,7 @@ n=input()
 for i in range(n):
     m=input()
     arr=list(map(int,raw_input().split()))
-    c=0 
+    c=0
     if m==1:
         print "YES"
         c=1
@@ -17,3 +17,4 @@ for i in range(n):
             break
     if c==0:
         print "NO"
+
